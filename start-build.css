@@ -1,0 +1,498 @@
+.start-your-build {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1039px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.compatibility-no-issues {
+  position: absolute;
+  top: 11px;
+  left: -39px;
+  display: inline-block;
+  width: 466px;
+  height: 20px;
+}
+
+.rectangle-barbel{
+  width: 1440px;
+  height: 126px;
+  position: absolute;
+  top: 134px;
+  left: 0px;
+  background-color: #393e3e;
+}
+.barbela{
+  align-items: center;
+  font-size: 30px; 
+  width: 600;
+  height: auto;
+  text-align: center;
+  font-weight: 700px;
+  top: 171px;
+  left: 420px;
+  font-stretch: normal;
+  
+}
+
+.compatibility-no-issues-or-in-wrapper {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  background-color: #000;
+  width: 1440px;
+  height: 43px;
+  overflow: hidden;
+  font-size: var(--font-size-3xs);
+}
+.rectangle-barbela {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1439px;
+  height: 133.62px;
+}
+.electrocraft {
+  position: absolute;
+  top: 31.12px;
+  left: 130.91px;
+  font-size: 25px;
+  display: inline-block;
+  width: 211.85px;
+  height: 21.58px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 12.33px;
+  left: 63.96px;
+  border-radius: 50%;
+  width: 79.94px;
+  height: 80.17px;
+  object-fit: cover;
+}
+/*button sa top*/
+
+.builder{
+  color: #ffffff;
+  width: 69px;
+  position: absolute;
+  top: 109px;
+  left: 76px;
+  cursor: pointer;
+  background-color: #272829;
+}
+
+.products {
+  color: #ffffff;
+  width: 69px;
+  position: absolute;
+  top: 109px;
+  left: 168px;
+  cursor: pointer;
+  background-color: #272829;
+}
+.guides-1 {
+  color: #ffffff;
+  width: 69px;
+  position: absolute;
+  top: 109px;
+  left: 255px;
+  cursor: pointer;
+  background-color: #272829;
+}
+.completed-builds-2 {
+  color: #ffffff;
+  width: 150px;
+  position: absolute;
+  top: 109px;
+  left: 320px;
+  cursor: pointer;
+  background-color: #272829;
+}
+.builder,.products{
+  color: #fff;
+}
+.guides-1,.completed-builds-2{
+  color: #fff;
+}
+.builder:hover,.products:hover{
+  color: #666666;
+}
+.guides-1:hover,.completed-builds-2:hover{
+  color: #666666;
+}
+
+
+
+
+/*text*/
+.component {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.base,
+.component,
+.section {
+  display: inline-block;
+  width: 83.71px;
+  height: 14.65px;
+}
+.section {
+  position: absolute;
+  top: 0;
+  left: 167.42px;
+}
+.base {
+  left: 441.6px;
+}
+.base,
+.promo,
+.shipping {
+  position: absolute;
+  top: 0;
+}
+.promo {
+  left: 629.65px;
+  display: inline-block;
+  width: 83.71px;
+  height: 14.65px;
+}
+.shipping {
+  left: 774.02px;
+}
+.price,
+.shipping,
+.where {
+  display: inline-block;
+  width: 83.71px;
+  height: 14.65px;
+}
+.price {
+  position: absolute;
+  top: 0;
+  left: 962.06px;
+}
+.where {
+  left: 1185.29px;
+}
+.cpu,
+.text-component,
+.where {
+  position: absolute;
+  top: 0;
+}
+.text-component {
+  left: 10px;
+  width: 1269px;
+  height: 14.65px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+}
+.cpu {
+  left: 33px;
+  display: inline-block;
+  width: 32px;
+  height: 9.71px;
+}
+.case,
+.cpu-cooler,
+.memory,
+.motherboard,
+.storage,
+.video-card {
+  position: absolute;
+  top: 51.79px;
+  left: 17px;
+  display: inline-block;
+  width: 66px;
+  height: 9.71px;
+}
+.case,
+.memory,
+.motherboard,
+.storage,
+.video-card {
+  top: 96.03px;
+  left: 11px;
+  width: 80px;
+}
+.case,
+.memory,
+.storage,
+.video-card {
+  top: 143.5px;
+  left: 22px;
+  width: 46px;
+}
+.case,
+.storage,
+.video-card {
+  top: 192.06px;
+  left: 19px;
+}
+.case,
+.video-card {
+  top: 237.38px;
+  width: 58px;
+}
+.case {
+  top: 285.93px;
+  left: 30px;
+  width: 32px;
+}
+.monitor,
+.operating-system,
+.power-supply {
+  position: absolute;
+  top: 329.09px;
+  left: 21px;
+  display: inline-block;
+  width: 50px;
+  height: 22.66px;
+}
+.monitor,
+.operating-system {
+  top: 376.57px;
+  left: 19px;
+  width: 58px;
+  height: 17.26px;
+}
+.monitor {
+  top: 431.59px;
+  left: 25px;
+  width: 46px;
+  height: 9.71px;
+}
+.accessoriesothers,
+.expansion-cardsnetworking,
+.peripherals {
+  position: absolute;
+  top: 465.04px;
+  left: 8px;
+  display: inline-block;
+  width: 97px;
+  height: 37.76px;
+}
+.accessoriesothers,
+.peripherals {
+  top: 503.26px;
+  left: 25px;
+  width: 61px;
+  height: 9.71px;
+}
+.text-componetss {
+  position: absolute;
+  top: 31.65px;
+  left: 0;
+  width: 119px;
+  height: 539.71px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+}
+.gitna-child {
+  position: absolute;
+  top: 27.01px;
+  left: 4.96px;
+  width: 1311.09px;
+  height: 496.44px;
+}
+
+/*Button choose A*/
+
+.choose-h1{
+top: 30px;
+left: 180px;
+position: absolute;
+cursor: pointer;
+}
+.choose-h2{
+  top: 82px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h3{
+  top: 130px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h4{
+  top: 175px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h5{
+  top: 220px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h6{
+  top: 270px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h7{
+  top: 315px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h8{
+  top: 360px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h9{
+  top: 407px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h10{
+  top: 451px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h11{
+  top: 493px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+.choose-h12{
+  top: 530px;
+  left: 180px;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+/*gitna text tas rectangle na black*/
+
+.gitna,
+.rectangle-icon {
+  position: absolute;
+  top: 319px;
+  left: 61px;
+  width: 1316.04px;
+  height: 571.36px;
+}
+.rectangle-bar{
+width: 1440px;
+height: 137px;
+position: absolute;
+top: 902px;
+left: 0px;
+background-color: #000;
+}
+/*lines*/
+.line{
+  width: 1311px;
+  position: absolute;
+  top: 5px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-2{
+  width: 1311px;
+  position: absolute;
+  top: 60px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-3{
+  width: 1311px;
+  position: absolute;
+  top: 110px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-4{
+  width: 1311px;
+  position: absolute;
+  top: 155px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-5{
+  width: 1311px;
+  position: absolute;
+  top: 200px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-6{
+  width: 1311px;
+  position: absolute;
+  top: 250px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-7{
+  width: 1311px;
+  position: absolute;
+  top: 295px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-8{
+  width: 1311px;
+  position: absolute;
+  top: 340px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-9{
+  width: 1311px;
+  position: absolute;
+  top: 385px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-10{
+  width: 1311px;
+  position: absolute;
+  top: 430px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-11{
+  width: 1311px;
+  position: absolute;
+  top: 475px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-12{
+  width: 1311px;
+  position: absolute;
+  top: 515px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-13{
+  width: 1311px;
+  position: absolute;
+  top: 550px;
+  border-color: #12212b;
+  border-style: solid;
+}
+.line-14{
+  width: 1439px;
+  position: absolute;
+  top: 90px;
+  border-color: #000;
+  border-style: solid;
+}
